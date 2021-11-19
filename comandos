@@ -1,0 +1,35 @@
+COMANDOS GIT
+
+git init -> Inicia um repositório local no computador.
+
+git status -> Exibe as condições do diretório de trabalho.
+
+git add -> Adiciona arquivos aos conteiners.
+
+git commit -m "comentário" -> Cria pontos de restauração de um arquivo.
+
+git log -> Mostra todos os dados de criação dos arquivos.
+
+git log --oneline -> Retorna os dados de maneira mais comprimida.
+
+git log --graph -> Retornará dois nós (*) e uma linha entre eles.
+
+code . -> Abre o Visual Studio Code no diretório do projeto.
+
+git checkout <hash> -> Força uma determinada versão a voltar a anterior.
+
+git checkout master -> Desfaz o ultimo comando anterior e voltar com a branch master.
+
+git restore -> É uma nova maneira parecida com checkout, porém, específica para a restauração.
+
+git diff -> Faz uma comparação com os dados do git.
+
+git reset --hard <hash> -> Remove um commit.
+
+git branch -> Retorna a ramificação padrão do projeto.
+
+git checkout -b <nome do ramo> -> Serve para criar uma nova ramificação.
+
+git merge <nome do ramo> -> Fará a união estável dos ramos.
+
+git remote -> Verifica se há projetos remotos.
